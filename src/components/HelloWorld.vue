@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Button } from './ui/button';
 
 defineProps<{
   msg: string
@@ -8,8 +7,8 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <p class="text-3xl font-bold underline text-red-900">Tailwind installed</p>
-    <Button variant="secondary">This is a button</Button>
+    <p class="text-3xl font-bold underline text-red-900">This is UI library</p>
+    <button variant="secondary">UI Library Button</button>
   </div>
 </template>
 
