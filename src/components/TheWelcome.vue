@@ -3,5 +3,5 @@ import { Button } from '@/components/ui/button'
 </script>
 
 <template>
-  <Button variant="destructive">Button</Button>
+  <Button>Button</Button>
 </template>
